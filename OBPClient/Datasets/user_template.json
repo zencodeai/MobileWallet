@@ -1,0 +1,76 @@
+{
+  "user": {
+    "email": "<fisrt_name>.<last_name>@obp.ca",
+    "username": "<username>",
+    "password": "<password>",
+    "first_name": "<first_name>",
+    "last_name": "<last_name>"
+  },
+  "customer": {
+    "legal_name":"<first_name> <last_name>",
+    "mobile_phone_number":"(999) 999-9999",
+    "email":"<fisrt_name>.<last_name>@obp.ca",
+    "face_image": {
+      "url":"127.0.0.1:8081",
+      "date":"2023-03-01T00:08:00Z"
+    },
+    "date_of_birth":"1975-01-01T00:08:00Z",
+    "relationship_status":"single",
+    "dependants": 1,
+    "dob_of_dependants":["2000-01-01T00:08:00Z"],
+    "credit_rating": {
+      "rating":"OBP",
+      "source":"OBP"
+    },
+    "credit_limit":{
+      "currency":"CAD",
+      "amount":"0"
+    },
+    "highest_education_attained":"Master",
+    "employment_status":"worker",
+    "kyc_status":true,
+    "last_ok_date":"2023-03-01T00:08:00Z",
+    "title":"Dr.",
+    "branch_id":"Online",
+    "name_suffix":"Sr"
+  },
+  "account": {
+    "user_id":"<user_id>",
+    "label":"OBP client account",
+    "product_code":"OBP-1",
+    "balance": {
+      "currency":"CAD",
+      "amount":"0"
+    },
+    "branch_id":"Online",
+    "account_routings": [
+      {
+        "scheme":"UserId",
+        "address":"<user_id>"
+      },
+      {
+        "scheme":"UserName",
+        "address":"<user_name>"
+      }
+    ],
+    "account_attributes": [
+      {
+        "product_code":"OBP-1",
+        "account_attribute_id":"613c83ea-80f9-4560-8404-b9cd4ec42a7f",
+        "name":"OVERDRAFT_START_DATE",
+        "type":"DATE_WITH_DAY",
+        "value":"2023-03-21T00:08:00Z"
+      }
+    ]
+  },
+  "user_customer_link": {
+    "customer_id":"<customer_id>",
+    "user_id":"user_id"
+  },
+  "customer_account_link": {
+    "customer_id":"<customer_id>",
+    "bank_id":"<bank_id>",
+    "account_id":"<account_id>",
+    "relationship_type":"Owner"
+  }
+}

@@ -1,0 +1,221 @@
+openapi: 3.0.2
+info:
+  title: MobileWalletPOT
+  description: Mobile Wallet POT backend API
+  version: 0.1.0
+paths:
+  /api/v1/provision:
+    post:
+      summary: Provision
+      operationId: provision_api_v1_provision_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProvisioningData'
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/init:
+    post:
+      summary: Init
+      operationId: init_api_v1_init_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BalanceInitData'
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/online:
+    post:
+      summary: Online
+      operationId: online_api_v1_online_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OnlineTransactionData'
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/process:
+    post:
+      summary: Process
+      operationId: process_api_v1_process_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProcessingData'
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/session_data:
+    post:
+      summary: Session Data
+      operationId: session_data_api_v1_session_data_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestSessionData'
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+components:
+  schemas:
+    BalanceInitData:
+      title: BalanceInitData
+      required:
+      - token
+      - data
+      type: object
+      properties:
+        token:
+          title: Token
+          type: string
+        data:
+          title: Data
+          type: string
+    HTTPValidationError:
+      title: HTTPValidationError
+      type: object
+      properties:
+        detail:
+          title: Detail
+          type: array
+          items:
+            $ref: '#/components/schemas/ValidationError'
+    OnlineTransactionData:
+      title: OnlineTransactionData
+      required:
+      - token
+      - data
+      type: object
+      properties:
+        token:
+          title: Token
+          type: string
+        data:
+          title: Data
+          type: string
+    ProcessingData:
+      title: ProcessingData
+      required:
+      - session_id
+      - data
+      type: object
+      properties:
+        session_id:
+          title: Session Id
+          type: string
+        data:
+          title: Data
+          type: string
+    ProvisioningData:
+      title: ProvisioningData
+      required:
+      - token
+      - data
+      type: object
+      properties:
+        token:
+          title: Token
+          type: string
+        data:
+          title: Data
+          type: string
+    RequestSessionData:
+      title: RequestSessionData
+      required:
+      - session_id
+      - data_type
+      type: object
+      properties:
+        session_id:
+          title: Session Id
+          type: string
+        data_type:
+          $ref: '#/components/schemas/SessionDataType'
+    SessionDataType:
+      title: SessionDataType
+      enum:
+      - none
+      - tx_pending_list
+      - fav_holders_list
+      - fav_merchants_list
+      - fav_intermediaries_list
+      description: An enumeration.
+    ValidationError:
+      title: ValidationError
+      required:
+      - loc
+      - msg
+      - type
+      type: object
+      properties:
+        loc:
+          title: Location
+          type: array
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+        msg:
+          title: Message
+          type: string
+        type:
+          title: Error Type
+          type: string

@@ -1,0 +1,18 @@
+{
+  "description": "LENOVO environment client configuration",
+  "api_root": "obp",
+  "api_version": "v5.1.0",
+  "host_prefix": "http://",
+  "host_name": "127.0.0.1:8080",
+  "auth_name": "direct",
+  "user_name": "system.admin",
+  "user_password": "Sb8T9d)IKUwGAwG5F\\nY",
+  "oauth_consumer_key": "lyzaklcdqhc0ill3spqfacnoq55mhl22f2amu1l1",
+  "oauth_consumer_secret": "0h34li5nhdi4wjeutj1dejpk0gsxge2fdtwto4ey",
+  "face_image_url": "https://127.0.0.1:8080/images/",
+  "default_bank_data": "Datasets/banks.json",
+  "default_user_data": "Datasets/users.json",
+  "default_user_template": "Datasets/user_template.json",
+  "default_bank_id": "b.890.ca",
+  "default_password": "P@ssword1234"
+}

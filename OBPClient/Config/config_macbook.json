@@ -1,0 +1,18 @@
+{
+  "description": "MacBook Pro environment client configuration",
+  "api_root": "obp",
+  "api_version": "v5.1.0",
+  "host_prefix": "http://",
+  "host_name": "127.0.0.1:8080",
+  "auth_name": "direct",
+  "user_name": "system.admin",
+  "user_password": "^9Go6\\95Epw-06RBO+$h",
+  "oauth_consumer_key": "epxlxd5eqi4oruytg2yx5lynxexzhrqechqsdvwx",
+  "oauth_consumer_secret": "2taka1pabcdcns3o1bjiy0kenbrwaipt0f1ma4xm",
+  "face_image_url": "https://127.0.0.1:8080/images/",
+  "default_bank_data": "Datasets/banks.json",
+  "default_user_data": "Datasets/users.json",
+  "default_user_template": "Datasets/user_template.json",
+  "default_bank_id": "b.890.ca",
+  "default_password": "P@ssword1234"
+}

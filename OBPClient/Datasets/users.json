@@ -1,0 +1,7 @@
+{
+  "users":
+  [
+    {  "username":"Alias.Massimo",  "password":"P@ssword1234",  "first_name":"James",  "last_name":"Smith", "bank_id":"b.890.ca"},
+    {  "username":"Alias.Carla",  "password":"P@ssword1234",  "first_name":"Mary",  "last_name":"Smith", "bank_id":"b.890.ca"}
+  ]
+}

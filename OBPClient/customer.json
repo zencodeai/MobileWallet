@@ -1,0 +1,30 @@
+{
+    "legal_name": "James Smith",
+    "mobile_phone_number": "(999) 999-9999",
+    "email": "James.Smith@obp.ca",
+    "face_image": {
+        "url": "https://www.openbankproject.com/images/Alias.Massimo.jpg",
+        "date": "2023-03-21T17:03:03.105520"
+    },
+    "date_of_birth": "1975-01-01T00:00:00Z",
+    "relationship_status": "single",
+    "dependants": 1,
+    "dob_of_dependants": [
+        "2000-01-01T00:00:00Z"
+    ],
+    "credit_rating": {
+        "rating": "OBP",
+        "source": "OBP"
+    },
+    "credit_limit": {
+        "currency": "CAD",
+        "amount": "0"
+    },
+    "highest_education_attained": "Master",
+    "employment_status": "worker",
+    "kyc_status": true,
+    "last_ok_date": "2023-03-21T17:03:03.105545",
+    "title": "Dr.",
+    "branch_id": "Online",
+    "name_suffix": "Sr"
+}

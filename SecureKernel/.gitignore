@@ -1,0 +1,8 @@
+/build
+src/inc/sk_definitions.hpp
+*.bin
+/wrapper/*.bin
+**/__pycache__
+**/*.bin
+**/.venv
+**/sk_definitions.json

@@ -1,0 +1,194 @@
+{
+    "dataset":
+    [        
+        {
+            "data_type":"intermediary",
+            "data":
+            {
+                "name":"RBC",
+                "description":"RBC Financial Group",
+                "icon":"business_rbc"
+            } 
+        },
+        {
+            "data_type":"intermediary",
+            "data":
+            {
+                "name":"BMO",
+                "description":"BMO Financial Group",
+                "icon":"business_bmo"
+            } 
+        },
+        {
+            "data_type":"intermediary",
+            "data":
+            {
+                "name":"BTCx",
+                "description":"Bitcoin Exchange Inc.",
+                "icon":"business_bitcoin"
+            } 
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"CRail",
+                "description":"Canadian Rail",
+                "icon":"business_train"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"LTranspo",
+                "description":"Local Transportation",
+                "icon":"business_bus"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"Green Taxi",
+                "description":"Green Taxi taxi service",
+                "icon":"business_taxi"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"Amazon",
+                "description":"Amazon Canada online store",
+                "icon":"business_amazon"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"Shopify",
+                "description":"Shopify Canada online store",
+                "icon":"business_shopify"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"Fruit&Veg",
+                "description":"Fruit and Vegetable stand",
+                "icon":"business_fruits_vegetables"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"FarmJoy",
+                "description":"FarmJoy farm produce",
+                "icon":"business_shop"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"Here&There",
+                "description":"Here&There clothing store",
+                "icon":"business_shopping"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"Three Drinkers",
+                "description":"Three Drinkers Gastro-Pub",
+                "icon":"business_restaurant"
+            }
+        },
+        {
+            "data_type":"merchant",
+            "data":
+            {
+                "name":"Tunasbone",
+                "description":"Tunasbone Oysters and Seafood",
+                "icon":"business_restaurant"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Vera",
+                "description":"Vera's DC account",
+                "icon":"diverse_people_girl_red_braid_skin1"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Sahada",
+                "description":"Sahada's DC account",
+                "icon":"diverse_people_woman_muslim_hijab_skin5"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Joan",
+                "description":"Joan's DC account",
+                "icon":"diverse_people_woman_native_indigenous_braids_skin2"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Brenda",
+                "description":"Brenda's DC account",
+                "icon":"diverse_people_woman_senior_hearing_aid_disability_skin3"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Ethan",
+                "description":"Ethan's DC account",
+                "icon":"diverse_people_man_jewish_yamaka_skin2"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Bradley",
+                "description":"Bradley's DC account",
+                "icon":"diverse_people_man_cornrows_short_hair_skin4"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Aagyapal",
+                "description":"Aagyapal's DC account",
+                "icon":"diverse_people_man_sikh_turban_beard_skin_skin4"
+            }
+        },
+        {
+            "data_type":"holder",
+            "data":
+            {
+                "name":"Henry",
+                "description":"Henry's DC account",
+                "icon":"diverse_people_nonbinary_lgbtq_blonde_skin3"
+            }
+        }
+    ]
+}

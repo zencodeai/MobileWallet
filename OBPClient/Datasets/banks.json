@@ -1,0 +1,35 @@
+{
+  "banks":
+  [
+    {
+      "id":"b.222.ca",
+      "bank_code":"222",
+      "full_name":"Bank of Kitchener",
+      "logo":"<logo url>",
+      "website":"https://www.bank-kitchner.ca/",
+      "bank_routings":[{
+        "scheme":"BankCode",
+        "address":"222"
+      }],
+      "attributes":[{
+        "name":"ACCOUNT_MANAGEMENT_FEE",
+        "value":"0"
+      }]
+    },
+    {
+      "id":"b.890.ca",
+      "bank_code":"890",
+      "full_name":"Open Bank Project",
+      "logo":"<logo url>",
+      "website":"https://www.openbankproject.com/",
+      "bank_routings":[{
+        "scheme":"BankCode",
+        "address":"890  "
+      }],
+      "attributes":[{
+        "name":"ACCOUNT_MANAGEMENT_FEE",
+        "value":"0"
+      }]
+    }
+  ]
+}
